@@ -1,5 +1,1 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+This blog sort of a scratchpad of thoughts and ideas.  I work in machine learning, building ML based products. This will be random musings but constrained to machine learning, software engineering, software design and programming languages I work with primarily C++ and Python.
