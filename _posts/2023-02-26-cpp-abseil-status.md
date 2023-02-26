@@ -1,6 +1,6 @@
 ## Day 8 Post 2: ABSL! ABSL! Please give me your Status!
 
-Continuing my wild ride into the C++Verse. I have stumbled across another great library Abseil (https://abseil.io/). 
+Continuing my wild ride into the C++Verse. I have stumbled across another great library Abseil <https://abseil.io/>. 
 
 While working on an application, I needed to add error handling to my projects as the state space exploded. Abseil::Status is a great module for it. It is also something used ubiquitously at Google.
 
@@ -42,7 +42,7 @@ int main() {
 }
 
 ```
-As can be seen here we ask the function (AbseilOpen) to do a task and check the status using absl::Status object returned. Status returns RPC error codes which can be seen here (https://github.com/googleapis/googleapis/blob/master/google/rpc/code.proto).
+As can be seen here we ask the function (AbseilOpen) to do a task and check the status using absl::Status object returned. Status returns RPC error codes which can be seen here <https://github.com/googleapis/googleapis/blob/master/google/rpc/code.proto>.
 
 In the above example, we were asking the function to perform a status. However lets say we want the function to return and object and also the status/error if there is an error.
 
@@ -80,7 +80,7 @@ int main() {
 ```
 
 As can be seen the value of int is returned if all conditions are met else an error code is returned. I will be using this library to make my application more robust.
-I installed the abseil using its Github library. Detailed instructions to do this are available here (https://abseil.io/docs/cpp/quickstart-cmake.html#getting-the-abseil-code).
+I installed the abseil using its Github library. Detailed instructions to do this are available here <https://abseil.io/docs/cpp/quickstart-cmake.html#getting-the-abseil-code>.
 
 This is how my cmakefile looks
   
