@@ -1,4 +1,4 @@
-## Day 1 Post 1: The unreasonable simplicity of serializing objects in C++ using Boost
+## Post 1: The unreasonable simplicity of serializing objects in C++ using Boost
 
 I am a C++ newbee so maybe what I say will read naive. But I found the Boost library in C++ to be extremely useful.
 
