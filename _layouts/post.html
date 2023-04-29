@@ -26,13 +26,9 @@ layout: default
     {% include navlinks.html %}
   </div>
 
-  <script src="https://utteranc.es/client.js"
-        repo="aryabhattaslair.github.io"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-  </script>
+  {% if page.comments_id %}
+    {% include comments.html issue_id=page.comments_id %}
+  {% endif %}
   
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
