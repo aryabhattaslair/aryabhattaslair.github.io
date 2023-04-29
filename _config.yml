@@ -1,6 +1,7 @@
 title: "Reflections on Machine Learning and Software Engineering"
 author: "Curious ML Engineer"
 description: "This blog is an informal collection of my thoughts on machine learning, engineering, C++, Python and software architecture" # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+issues_repo: aryabhattaslair/aryabhattaslair.github.io
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
