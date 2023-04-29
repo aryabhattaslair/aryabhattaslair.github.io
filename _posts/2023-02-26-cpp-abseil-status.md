@@ -1,6 +1,8 @@
-## Post 2: ABSL! ABSL! Please give me your Status!
-
+---
 comments_id: 35
+---
+
+## Post 2: ABSL! ABSL! Please give me your Status!
 
 Continuing my wild ride into the C++Verse. I have stumbled across another great library Abseil <https://abseil.io/>. 
 
